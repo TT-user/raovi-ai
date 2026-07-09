@@ -276,7 +276,9 @@
 
     document.querySelectorAll('.lang-toggle').forEach(toggle => {
       toggle.querySelectorAll('.lang-toggle__opt').forEach(opt => {
-        opt.classList.toggle('is-active', opt.getAttribute('data-lang') === lang);
+        const isActive = opt.getAttribute('data-lang') === lang;
+        opt.classList.toggle('is-active', isActive);
+        opt.setAttribute('aria-pressed', String(isActive));
       });
     });
 

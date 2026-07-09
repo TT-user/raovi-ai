@@ -35,10 +35,18 @@
 
     <div class="navbar__actions">
       <a href="#contato" class="btn btn--primary btn--sm" data-i18n="nav.cta">Quero um orçamento</a>
-      <button class="lang-toggle lang-toggle--inline" id="langToggleInline" aria-label="Trocar idioma / Switch language">
-        <span class="lang-toggle__opt" data-lang="pt"><span class="lang-toggle__flag" aria-hidden="true">🇧🇷</span> PT</span>
-        <span class="lang-toggle__opt" data-lang="en"><span class="lang-toggle__flag" aria-hidden="true">🇺🇸</span> EN</span>
-      </button>
+      <div class="lang-toggle lang-toggle--inline" id="langToggleInline" role="group" aria-label="Idioma / Language">
+        <button type="button" class="lang-toggle__opt" data-lang="pt" aria-label="Português">
+          <span class="lang-toggle__flag" aria-hidden="true">
+            <svg viewBox="0 0 24 16"><rect width="24" height="16" fill="#009739"/><polygon points="12,2 22,8 12,14 2,8" fill="#FEDD00"/><circle cx="12" cy="8" r="4" fill="#012169"/></svg>
+          </span>
+        </button>
+        <button type="button" class="lang-toggle__opt" data-lang="en" aria-label="English">
+          <span class="lang-toggle__flag" aria-hidden="true">
+            <svg viewBox="0 0 24 16"><rect width="24" height="16" fill="#B22234"/><g fill="#fff"><rect y="1.23" width="24" height="1.23"/><rect y="3.69" width="24" height="1.23"/><rect y="6.15" width="24" height="1.23"/><rect y="8.61" width="24" height="1.23"/><rect y="11.08" width="24" height="1.23"/><rect y="13.54" width="24" height="1.23"/></g><rect width="10" height="8.61" fill="#3C3B6E"/></svg>
+          </span>
+        </button>
+      </div>
       <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileDrawer">
         <span></span><span></span><span></span>
       </button>
@@ -55,10 +63,18 @@
     <a href="#portfolio" class="drawer__link" data-i18n="nav.portfolio">Portfólio</a>
     <a href="#contato" class="drawer__link" data-i18n="nav.contact">Contato</a>
   </nav>
-  <button class="lang-toggle" id="langToggleDrawer" aria-label="Trocar idioma / Switch language">
-    <span class="lang-toggle__opt" data-lang="pt"><span class="lang-toggle__flag" aria-hidden="true">🇧🇷</span> PT</span>
-    <span class="lang-toggle__opt" data-lang="en"><span class="lang-toggle__flag" aria-hidden="true">🇺🇸</span> EN</span>
-  </button>
+  <div class="lang-toggle" id="langToggleDrawer" role="group" aria-label="Idioma / Language">
+    <button type="button" class="lang-toggle__opt" data-lang="pt" aria-label="Português">
+      <span class="lang-toggle__flag" aria-hidden="true">
+        <svg viewBox="0 0 24 16"><rect width="24" height="16" fill="#009739"/><polygon points="12,2 22,8 12,14 2,8" fill="#FEDD00"/><circle cx="12" cy="8" r="4" fill="#012169"/></svg>
+      </span>
+    </button>
+    <button type="button" class="lang-toggle__opt" data-lang="en" aria-label="English">
+      <span class="lang-toggle__flag" aria-hidden="true">
+        <svg viewBox="0 0 24 16"><rect width="24" height="16" fill="#B22234"/><g fill="#fff"><rect y="1.23" width="24" height="1.23"/><rect y="3.69" width="24" height="1.23"/><rect y="6.15" width="24" height="1.23"/><rect y="8.61" width="24" height="1.23"/><rect y="11.08" width="24" height="1.23"/><rect y="13.54" width="24" height="1.23"/></g><rect width="10" height="8.61" fill="#3C3B6E"/></svg>
+      </span>
+    </button>
+  </div>
   <a href="#contato" class="btn btn--primary drawer__cta" data-i18n="nav.cta">Quero um orçamento</a>
 </div>
 
