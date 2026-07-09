@@ -126,6 +126,9 @@ h1, h2, h3 { color: var(--cream); font-family: var(--font-sans); font-weight: 70
   gap: 2px;
 }
 .lang-toggle__opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
   padding: 6px 12px;
   border-radius: 100px;
   font-size: 0.78rem;
@@ -133,6 +136,7 @@ h1, h2, h3 { color: var(--cream); font-family: var(--font-sans); font-weight: 70
   color: var(--cream-soft);
   transition: background var(--transition), color var(--transition);
 }
+.lang-toggle__flag { font-size: 0.95rem; line-height: 1; }
 .lang-toggle__opt.is-active { background: var(--cream); color: var(--bg-primary); }
 
 .whatsapp-float {
@@ -250,7 +254,6 @@ h1, h2, h3 { color: var(--cream); font-family: var(--font-sans); font-weight: 70
 .marquee { overflow: hidden; width: 100%; }
 .marquee__track {
   display: flex;
-  gap: 64px;
   width: max-content;
   animation: scroll-left 30s linear infinite;
 }
@@ -266,6 +269,7 @@ h1, h2, h3 { color: var(--cream); font-family: var(--font-sans); font-weight: 70
   opacity: 0.5;
   transition: opacity var(--transition);
   white-space: nowrap;
+  margin-right: 64px;
 }
 .marquee__logo:hover { opacity: 1; }
 
