@@ -3,49 +3,107 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title data-i18n="meta.title">RaoviAI — Criação de Sites Profissionais e Automações com IA</title>
-<meta name="description" data-i18n-attr="content:meta.description" content="A RaoviAI cria sites, landing pages e automações com inteligência artificial que geram resultado de verdade: mais leads e mais vendas.">
-<meta property="og:title" data-i18n-attr="content:meta.title" content="RaoviAI — Criação de Sites Profissionais e Automações com IA">
-<meta property="og:description" data-i18n-attr="content:meta.description" content="A RaoviAI cria sites, landing pages e automações com inteligência artificial que geram resultado de verdade: mais leads e mais vendas.">
-<meta property="og:image" content="assets/og-image.jpg"> <!-- TROCAR -->
-<meta property="og:url" content="https://raoviai.com">
-<link rel="icon" href="assets/favicon.svg"> <!-- TROCAR -->
+<title data-i18n="meta.title">Raovi Labs | Identidade Digital Profissional, Sites e SEO</title>
+<meta name="description" data-i18n-attr="content:meta.description" content="A Raovi Labs cria identidades digitais profissionais: sites com design único, identidade visual forte e otimização SEO. Destaque sua marca no Google.">
+<link rel="canonical" href="https://raovi.com/">
+<meta property="og:title" data-i18n-attr="content:meta.title" content="Raovi Labs | Identidade Digital Profissional, Sites e SEO">
+<meta property="og:description" data-i18n-attr="content:meta.description" content="A Raovi Labs cria identidades digitais profissionais: sites com design único, identidade visual forte e otimização SEO. Destaque sua marca no Google.">
+<meta property="og:image" content="https://raovi.com/assets/og-image.jpg"> <!-- TROCAR -->
+<meta property="og:url" content="https://raovi.com/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Raovi Labs",
+  "url": "https://raovi.com/",
+  "logo": "https://raovi.com/assets/logo.svg",
+  "sameAs": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Raovi Labs",
+  "description": "Identidade digital profissional: sites com design único, identidade visual forte e SEO.",
+  "areaServed": "BR",
+  "url": "https://raovi.com/",
+  "telephone": "+5532984762445"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O que é identidade digital?",
+      "acceptedAnswer": { "@type": "Answer", "text": "É o conjunto de tudo que representa sua marca online: site, identidade visual, presença no Google e redes. A Raovi cuida disso de forma integrada." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto custa um site profissional?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Depende do escopo. Após o diagnóstico gratuito, enviamos uma proposta personalizada." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto tempo leva?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Projetos típicos ficam prontos entre 2 e 6 semanas, conforme a complexidade." }
+    },
+    {
+      "@type": "Question",
+      "name": "O site já vem otimizado para o Google?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim. SEO técnico (velocidade, estrutura, meta tags, schema) faz parte de toda entrega." }
+    },
+    {
+      "@type": "Question",
+      "name": "Vocês fazem manutenção depois do lançamento?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim, oferecemos planos de acompanhamento e evolução contínua." }
+    }
+  ]
+}
+</script>
 </head>
 <body>
+
+<!-- ===================== PRELOADER ===================== -->
+<div class="preloader" id="preloader" role="presentation" aria-hidden="true">
+  <span class="preloader__word" id="preloaderWord">
+    <span>R</span><span>A</span><span>O</span><span>V</span><span>I</span>
+  </span>
+</div>
 
 <!-- ===================== HEADER / NAVBAR ===================== -->
 <header class="navbar" id="navbar">
   <div class="navbar__inner">
-    <a href="#home" class="logo" aria-label="RaoviAI">
-      <!-- TROCAR IMAGEM: <img src="assets/logo.svg" alt="RaoviAI"> -->
-      <span class="logo__raovi">Raovi</span><span class="logo__ai">AI</span>
+    <a href="#home" class="logo" aria-label="Raovi Labs">
+      <!-- TROCAR IMAGEM: <img src="assets/logo.svg" alt="Raovi Labs"> -->
+      <span class="logo__raovi">Raovi</span><span class="logo__labs">Labs</span>
     </a>
 
     <nav class="navbar__links" aria-label="Navegação principal">
       <a href="#home" class="navlink" data-i18n="nav.home">Home</a>
-      <a href="#quem-somos" class="navlink" data-i18n="nav.about">Quem somos</a>
-      <a href="#servicos" class="navlink" data-i18n="nav.services">Serviços</a>
+      <a href="#servicos" class="navlink" data-i18n="nav.services">O que fazemos</a>
+      <a href="#processo" class="navlink" data-i18n="nav.process">Processo</a>
       <a href="#portfolio" class="navlink" data-i18n="nav.portfolio">Portfólio</a>
+      <a href="#faq" class="navlink" data-i18n="nav.faq">FAQ</a>
       <a href="#contato" class="navlink" data-i18n="nav.contact">Contato</a>
     </nav>
 
     <div class="navbar__actions">
-      <a href="#contato" class="btn btn--primary btn--sm" data-i18n="nav.cta">Quero um orçamento</a>
+      <a href="#contato" class="btn btn--primary btn--sm" data-i18n="nav.cta">Solicite uma proposta</a>
       <div class="lang-toggle lang-toggle--inline" id="langToggleInline" role="group" aria-label="Idioma / Language">
-        <button type="button" class="lang-toggle__opt" data-lang="pt" aria-label="Português">
-          <span class="lang-toggle__flag" aria-hidden="true">
-            <svg viewBox="0 0 24 16"><rect width="24" height="16" fill="#009739"/><polygon points="12,2 22,8 12,14 2,8" fill="#FEDD00"/><circle cx="12" cy="8" r="4" fill="#012169"/></svg>
-          </span>
-        </button>
-        <button type="button" class="lang-toggle__opt" data-lang="en" aria-label="English">
-          <span class="lang-toggle__flag" aria-hidden="true">
-            <svg viewBox="0 0 24 16"><rect width="24" height="16" fill="#B22234"/><g fill="#fff"><rect y="1.23" width="24" height="1.23"/><rect y="3.69" width="24" height="1.23"/><rect y="6.15" width="24" height="1.23"/><rect y="8.61" width="24" height="1.23"/><rect y="11.08" width="24" height="1.23"/><rect y="13.54" width="24" height="1.23"/></g><rect width="10" height="8.61" fill="#3C3B6E"/></svg>
-          </span>
-        </button>
+        <button type="button" class="lang-toggle__opt" data-lang="pt" aria-label="Português">PT</button>
+        <button type="button" class="lang-toggle__opt" data-lang="en" aria-label="English">EN</button>
       </div>
       <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileDrawer">
         <span></span><span></span><span></span>
@@ -58,84 +116,136 @@
 <div class="drawer" id="mobileDrawer">
   <nav class="drawer__links" aria-label="Navegação mobile">
     <a href="#home" class="drawer__link" data-i18n="nav.home">Home</a>
-    <a href="#quem-somos" class="drawer__link" data-i18n="nav.about">Quem somos</a>
-    <a href="#servicos" class="drawer__link" data-i18n="nav.services">Serviços</a>
+    <a href="#servicos" class="drawer__link" data-i18n="nav.services">O que fazemos</a>
+    <a href="#processo" class="drawer__link" data-i18n="nav.process">Processo</a>
     <a href="#portfolio" class="drawer__link" data-i18n="nav.portfolio">Portfólio</a>
+    <a href="#faq" class="drawer__link" data-i18n="nav.faq">FAQ</a>
     <a href="#contato" class="drawer__link" data-i18n="nav.contact">Contato</a>
   </nav>
   <div class="lang-toggle" id="langToggleDrawer" role="group" aria-label="Idioma / Language">
-    <button type="button" class="lang-toggle__opt" data-lang="pt" aria-label="Português">
-      <span class="lang-toggle__flag" aria-hidden="true">
-        <svg viewBox="0 0 24 16"><rect width="24" height="16" fill="#009739"/><polygon points="12,2 22,8 12,14 2,8" fill="#FEDD00"/><circle cx="12" cy="8" r="4" fill="#012169"/></svg>
-      </span>
-    </button>
-    <button type="button" class="lang-toggle__opt" data-lang="en" aria-label="English">
-      <span class="lang-toggle__flag" aria-hidden="true">
-        <svg viewBox="0 0 24 16"><rect width="24" height="16" fill="#B22234"/><g fill="#fff"><rect y="1.23" width="24" height="1.23"/><rect y="3.69" width="24" height="1.23"/><rect y="6.15" width="24" height="1.23"/><rect y="8.61" width="24" height="1.23"/><rect y="11.08" width="24" height="1.23"/><rect y="13.54" width="24" height="1.23"/></g><rect width="10" height="8.61" fill="#3C3B6E"/></svg>
-      </span>
-    </button>
+    <button type="button" class="lang-toggle__opt" data-lang="pt" aria-label="Português">PT</button>
+    <button type="button" class="lang-toggle__opt" data-lang="en" aria-label="English">EN</button>
   </div>
-  <a href="#contato" class="btn btn--primary drawer__cta" data-i18n="nav.cta">Quero um orçamento</a>
+  <a href="#contato" class="btn btn--primary drawer__cta" data-i18n="nav.cta">Solicite uma proposta</a>
 </div>
 
 <main>
 
   <!-- ===================== HERO ===================== -->
   <section class="hero" id="home">
-    <div class="hero__bg" aria-hidden="true"></div>
     <div class="container hero__content">
-      <p class="badge" data-i18n="hero.badge">• SOLUÇÕES DIGITAIS COM INTELIGÊNCIA ARTIFICIAL •</p>
+      <p class="badge" data-i18n="hero.badge">• IDENTIDADE DIGITAL PROFISSIONAL •</p>
       <h1 class="hero__title reveal">
-        <span data-i18n="hero.title.line1">Criação de sites profissionais</span><br>
-        <span class="serif-accent" data-i18n="hero.title.line2">e automações com IA</span>
+        <span data-i18n="hero.title.line1">Sua marca merece mais do que</span><br>
+        <span class="accent-word" data-i18n="hero.title.line2">um site genérico.</span>
       </h1>
       <p class="hero__subtitle reveal" data-i18n-html="hero.subtitle">
-        Na <strong>RaoviAI</strong> não criamos apenas sites bonitos… criamos <strong>máquinas de gerar oportunidades</strong> no mundo digital.
+        A <strong>Raovi Labs</strong> desenvolve identidades digitais completas — design exclusivo, identidade visual forte e posicionamento estratégico no Google — para profissionais e empresas que querem ser levados a sério online.
       </p>
-      <a href="#contato" class="btn btn--primary btn--lg reveal" data-i18n="hero.cta">Entre em contato</a>
+      <div class="hero__ctas reveal">
+        <a href="#contato" class="btn btn--primary btn--lg" data-i18n="hero.cta.primary">Solicite uma proposta</a>
+        <a href="#processo" class="btn btn--outline btn--lg" data-i18n="hero.cta.secondary">Conheça nosso processo</a>
+      </div>
     </div>
-    <a href="#portfolio" class="hero__scroll-indicator" aria-label="Explorar portfólio">
-      <svg class="hero__scroll-circle" viewBox="0 0 100 100">
-        <defs><path id="circlePath" d="M 50,50 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" /></defs>
-        <text font-size="9" letter-spacing="2">
-          <textPath href="#circlePath" data-i18n="hero.scroll">EXPLORE NOSSO PORTFÓLIO • EXPLORE NOSSO PORTFÓLIO •</textPath>
-        </text>
-      </svg>
-      <span class="hero__scroll-arrow">↓</span>
-    </a>
   </section>
 
-  <!-- ===================== PROVA SOCIAL ===================== -->
-  <section class="trust">
+  <!-- ===================== O QUE FAZEMOS ===================== -->
+  <section class="section" id="servicos">
     <div class="container">
-      <p class="trust__label" data-i18n="trust.label">Empresas que confiam na RaoviAI</p>
+      <h2 class="section__title">
+        <span data-i18n="pillars.title.a">O que</span> <span class="accent-word" data-i18n="pillars.title.b">fazemos</span>
+      </h2>
+      <p class="section__text" data-i18n="pillars.text">Três pilares que sustentam toda identidade digital que construímos.</p>
+
+      <div class="pillars">
+        <article class="pillar-card">
+          <span class="pillar-card__icon" aria-hidden="true">◆</span>
+          <h3 data-i18n="pillars.item1.title">Design Único</h3>
+          <p data-i18n="pillars.item1.text">Nada de templates. Cada projeto nasce do zero, desenhado para a sua marca, seu público e seus objetivos. Um site que ninguém mais tem.</p>
+        </article>
+        <article class="pillar-card">
+          <span class="pillar-card__icon" aria-hidden="true">◆</span>
+          <h3 data-i18n="pillars.item2.title">Identidade Visual</h3>
+          <p data-i18n="pillars.item2.text">Cores, tipografia, logo e linguagem alinhados em todos os pontos de contato. Sua marca reconhecível do primeiro clique ao pós-venda.</p>
+        </article>
+        <article class="pillar-card">
+          <span class="pillar-card__icon" aria-hidden="true">◆</span>
+          <h3 data-i18n="pillars.item3.title">SEO &amp; Performance</h3>
+          <p data-i18n="pillars.item3.text">Sites rápidos, estruturados para o Google desde a primeira linha de código. Não basta ser bonito — precisa ser encontrado.</p>
+        </article>
+      </div>
     </div>
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee__track">
-        <span class="marquee__logo">Logoipsum</span>
-        <span class="marquee__logo">Northwind</span>
-        <span class="marquee__logo">Vértice</span>
-        <span class="marquee__logo">Aurora Co.</span>
-        <span class="marquee__logo">Cedro &amp; Sal</span>
-        <span class="marquee__logo">Bruma</span>
-        <span class="marquee__logo">Logoipsum</span>
-        <span class="marquee__logo">Northwind</span>
-        <span class="marquee__logo">Vértice</span>
-        <span class="marquee__logo">Aurora Co.</span>
-        <span class="marquee__logo">Cedro &amp; Sal</span>
-        <span class="marquee__logo">Bruma</span>
+  </section>
+
+  <!-- ===================== POR QUE A RAOVI ===================== -->
+  <section class="section" id="diferenciais">
+    <div class="container">
+      <h2 class="section__title">
+        <span data-i18n="why.title.a">Por que</span> <span class="accent-word" data-i18n="why.title.b">a Raovi</span>
+      </h2>
+      <p class="section__text" data-i18n="why.text">O que nos diferencia de uma agência genérica.</p>
+
+      <div class="why-grid">
+        <article class="why-card">
+          <h3 data-i18n="why.item1.title">Atenção aos detalhes</h3>
+          <p data-i18n="why.item1.text">Cada pixel, cada texto e cada meta tag é pensado — nada vai para o ar por acaso.</p>
+        </article>
+        <article class="why-card">
+          <h3 data-i18n="why.item2.title">Estratégia antes da estética</h3>
+          <p data-i18n="why.item2.text">Entendemos seu negócio antes de desenhar qualquer tela.</p>
+        </article>
+        <article class="why-card">
+          <h3 data-i18n="why.item3.title">Performance como padrão</h3>
+          <p data-i18n="why.item3.text">Sites leves, com carregamento rápido e nota alta no Core Web Vitals.</p>
+        </article>
+        <article class="why-card">
+          <h3 data-i18n="why.item4.title">Entrega completa</h3>
+          <p data-i18n="why.item4.text">Você não recebe "um site", recebe uma identidade digital pronta para crescer.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESSO ===================== -->
+  <section class="section" id="processo">
+    <div class="container">
+      <h2 class="section__title">
+        <span data-i18n="process.title.a">Nosso</span> <span class="accent-word" data-i18n="process.title.b">processo</span>
+      </h2>
+      <p class="section__text" data-i18n="process.text">Da primeira conversa ao site no ar, sem surpresas no caminho.</p>
+
+      <div class="process">
+        <article class="process-step">
+          <span class="process-step__num">01</span>
+          <h3 data-i18n="process.item1.title">Diagnóstico</h3>
+          <p data-i18n="process.item1.text">Entendemos sua marca, público e concorrência.</p>
+        </article>
+        <article class="process-step">
+          <span class="process-step__num">02</span>
+          <h3 data-i18n="process.item2.title">Design</h3>
+          <p data-i18n="process.item2.text">Criamos a identidade visual e o layout exclusivo, com sua aprovação em cada etapa.</p>
+        </article>
+        <article class="process-step">
+          <span class="process-step__num">03</span>
+          <h3 data-i18n="process.item3.title">Desenvolvimento</h3>
+          <p data-i18n="process.item3.text">Código limpo, responsivo e otimizado para velocidade.</p>
+        </article>
+        <article class="process-step">
+          <span class="process-step__num">04</span>
+          <h3 data-i18n="process.item4.title">Lançamento &amp; SEO</h3>
+          <p data-i18n="process.item4.text">Publicação, indexação no Google e configuração de métricas.</p>
+        </article>
       </div>
     </div>
   </section>
 
   <!-- ===================== PORTFÓLIO ===================== -->
   <section class="section section--portfolio" id="portfolio">
-    <p class="bg-word" aria-hidden="true" data-i18n="portfolio.bgword">Portfólio</p>
     <div class="container">
       <h2 class="section__title">
-        <span data-i18n="portfolio.title.a">Nosso</span> <span class="serif-accent" data-i18n="portfolio.title.b">portfólio</span>
+        <span data-i18n="portfolio.title.a">Nosso</span> <span class="accent-word" data-i18n="portfolio.title.b">portfólio</span>
       </h2>
-      <p class="section__text" data-i18n="portfolio.text">Selecionamos alguns projetos da equipe RaoviAI para você dar uma espiada.</p>
+      <p class="section__text" data-i18n="portfolio.text">Uma seleção de projetos pensados para os perfis que mais atendemos.</p>
     </div>
 
     <div class="carousel" id="portfolioCarousel">
@@ -144,88 +254,35 @@
         <article class="p-card">
           <div class="p-card__img" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
           <span class="p-card__number">01.</span>
-          <h3 class="p-card__title" data-i18n="portfolio.item1">Landing Page para Advogado</h3>
+          <h3 class="p-card__title" data-i18n="portfolio.item1">Site de Autoridade para Advogado</h3>
         </article>
         <article class="p-card">
           <div class="p-card__img" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
           <span class="p-card__number">02.</span>
-          <h3 class="p-card__title" data-i18n="portfolio.item2">Site para Imobiliária</h3>
+          <h3 class="p-card__title" data-i18n="portfolio.item2">Identidade Visual para Clínica Odontológica</h3>
         </article>
         <article class="p-card">
           <div class="p-card__img" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
           <span class="p-card__number">03.</span>
-          <h3 class="p-card__title" data-i18n="portfolio.item3">Site para Clínica</h3>
+          <h3 class="p-card__title" data-i18n="portfolio.item3">Site Institucional para Escritório de Arquitetura</h3>
         </article>
         <article class="p-card">
           <div class="p-card__img" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
           <span class="p-card__number">04.</span>
-          <h3 class="p-card__title" data-i18n="portfolio.item4">E-commerce de Cosméticos</h3>
+          <h3 class="p-card__title" data-i18n="portfolio.item4">Identidade Visual para PME de Varejo</h3>
         </article>
         <article class="p-card">
           <div class="p-card__img" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
           <span class="p-card__number">05.</span>
-          <h3 class="p-card__title" data-i18n="portfolio.item5">Automação com IA para Atendimento</h3>
+          <h3 class="p-card__title" data-i18n="portfolio.item5">Site de Marca Pessoal para Criador de Conteúdo</h3>
         </article>
         <article class="p-card">
           <div class="p-card__img" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
           <span class="p-card__number">06.</span>
-          <h3 class="p-card__title" data-i18n="portfolio.item6">Landing Page para Lançamentos</h3>
+          <h3 class="p-card__title" data-i18n="portfolio.item6">SEO Local para Clínica de Estética</h3>
         </article>
       </div>
       <button class="carousel__arrow carousel__arrow--next" id="portfolioNext" aria-label="Próximo">→</button>
-    </div>
-  </section>
-
-  <!-- ===================== FAIXA DE CATEGORIAS ===================== -->
-  <section class="category-marquee">
-    <div class="marquee marquee--reverse" aria-hidden="true">
-      <div class="marquee__track" id="categoryTrack">
-        <span class="marquee__cat" data-i18n="categories.text">LANDING PAGES ✦ SITES INSTITUCIONAIS ✦ AUTOMAÇÕES COM IA ✦ BLOGS ✦ PLATAFORMAS ✦ HOSPEDAGEM ✦ UI/UX ✦</span>
-        <span class="marquee__cat" data-i18n="categories.text">LANDING PAGES ✦ SITES INSTITUCIONAIS ✦ AUTOMAÇÕES COM IA ✦ BLOGS ✦ PLATAFORMAS ✦ HOSPEDAGEM ✦ UI/UX ✦</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== TIPOS DE SOLUÇÕES ===================== -->
-  <section class="section" id="solucoes">
-    <div class="container">
-      <h2 class="section__title">
-        <span data-i18n="solutions.title.a">Tipos</span> <span class="serif-accent" data-i18n="solutions.title.b">de soluções</span>
-      </h2>
-      <p class="section__text" data-i18n="solutions.text">Com a RaoviAI sua presença digital será marcada por grandes resultados. Não fazemos sites "só bonitos" — fazemos sites para gerar + vendas!</p>
-
-      <div class="bento">
-        <article class="bento__card bento__card--lg">
-          <div class="bento__img" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
-          <h3 data-i18n="solutions.item1.title">Sites Institucionais</h3>
-          <p data-i18n="solutions.item1.text">Apresente sua empresa ao mundo e comunique seus valores e serviços.</p>
-        </article>
-        <article class="bento__card">
-          <span class="bento__icon" aria-hidden="true">◆</span>
-          <h3 data-i18n="solutions.item2.title">Páginas de Captura</h3>
-          <p data-i18n="solutions.item2.text">Transforme visitantes em leads com páginas de alta performance.</p>
-        </article>
-        <article class="bento__card">
-          <span class="bento__icon" aria-hidden="true">◆</span>
-          <h3 data-i18n="solutions.item3.title">Landing Pages</h3>
-          <p data-i18n="solutions.item3.text">Otimize suas campanhas com páginas focadas em resultados.</p>
-        </article>
-        <article class="bento__card">
-          <span class="bento__icon" aria-hidden="true">◆</span>
-          <h3 data-i18n="solutions.item4.title">Automações com IA</h3>
-          <p data-i18n="solutions.item4.text">Atendimento, mensagens e rotinas funcionando no automático.</p>
-        </article>
-        <article class="bento__card">
-          <span class="bento__icon" aria-hidden="true">◆</span>
-          <h3 data-i18n="solutions.item5.title">Blogs</h3>
-          <p data-i18n="solutions.item5.text">Construa autoridade e fidelize clientes com conteúdo de valor.</p>
-        </article>
-        <article class="bento__card">
-          <span class="bento__icon" aria-hidden="true">◆</span>
-          <h3 data-i18n="solutions.item6.title">Sites Dinâmicos</h3>
-          <p data-i18n="solutions.item6.text">Gerencie seu conteúdo de forma fácil e independente.</p>
-        </article>
-      </div>
     </div>
   </section>
 
@@ -234,185 +291,69 @@
     <div class="container">
       <div class="cta-banner">
         <div class="cta-banner__text">
-          <h3 data-i18n="ctaMid.title">Precisando de um site que traga resultados no digital?</h3>
-          <p data-i18n-html="ctaMid.text">Fale diretamente conosco pelo WhatsApp e faça seu orçamento em apenas <strong>10 minutos</strong>!</p>
+          <h3 data-i18n="ctaMid.title">Pronto pra ter uma identidade digital de verdade?</h3>
+          <p data-i18n-html="ctaMid.text">Fale com a gente pelo WhatsApp e receba um diagnóstico <strong>gratuito</strong>.</p>
         </div>
-        <a href="https://wa.me/5532984762445" class="btn btn--primary" target="_blank" rel="noopener" data-i18n="ctaMid.button">Quero um orçamento</a>
+        <a href="https://wa.me/5532984762445" class="btn btn--primary" target="_blank" rel="noopener" data-i18n="ctaMid.button">Solicite uma proposta</a>
       </div>
     </div>
   </section>
 
-  <!-- ===================== O QUE FAZEMOS DE DIFERENTE ===================== -->
-  <section class="section" id="diferenciais">
+  <!-- ===================== FAQ ===================== -->
+  <section class="section" id="faq">
     <div class="container">
       <h2 class="section__title">
-        <span data-i18n="different.title.a">O que fazemos</span> <span class="serif-accent" data-i18n="different.title.b">de diferente?</span>
+        <span data-i18n="faq.title.a">Perguntas</span> <span class="accent-word" data-i18n="faq.title.b">frequentes</span>
       </h2>
-      <p class="section__text" data-i18n="different.text">Vamos direto ao ponto: nosso trabalho é fazer seu site trazer resultados. Não é sobre tecnologia complicada — é sobre soluções de verdade.</p>
+      <p class="section__text" data-i18n="faq.text">O que a gente mais escuta antes de fechar um projeto.</p>
 
-      <div class="accordion" id="diffAccordion">
+      <div class="accordion" id="faqAccordion">
         <div class="accordion__row is-open">
           <button class="accordion__head">
-            <span class="accordion__num">01</span>
-            <span class="accordion__title" data-i18n="different.item1.title">Aparecer no Google naturalmente</span>
+            <span class="accordion__title" data-i18n="faq.item1.q">O que é identidade digital?</span>
             <span class="accordion__toggle" aria-hidden="true">+</span>
           </button>
-          <div class="accordion__body"><p data-i18n="different.item1.text">SEO técnico: estrutura limpa, velocidade e conteúdo organizado → tráfego orgânico.</p></div>
+          <div class="accordion__body"><p data-i18n="faq.item1.a">É o conjunto de tudo que representa sua marca online: site, identidade visual, presença no Google e redes. A Raovi cuida disso de forma integrada.</p></div>
         </div>
         <div class="accordion__row">
           <button class="accordion__head">
-            <span class="accordion__num">02</span>
-            <span class="accordion__title" data-i18n="different.item2.title">Capturar mais clientes</span>
+            <span class="accordion__title" data-i18n="faq.item2.q">Quanto custa um site profissional?</span>
             <span class="accordion__toggle" aria-hidden="true">+</span>
           </button>
-          <div class="accordion__body"><p data-i18n="different.item2.text">Formulários estratégicos, botões de WhatsApp e ofertas no lugar certo → conversão.</p></div>
+          <div class="accordion__body"><p data-i18n="faq.item2.a">Depende do escopo. Após o diagnóstico gratuito, enviamos uma proposta personalizada.</p></div>
         </div>
         <div class="accordion__row">
           <button class="accordion__head">
-            <span class="accordion__num">03</span>
-            <span class="accordion__title" data-i18n="different.item3.title">Economizar seu tempo com IA</span>
+            <span class="accordion__title" data-i18n="faq.item3.q">Quanto tempo leva?</span>
             <span class="accordion__toggle" aria-hidden="true">+</span>
           </button>
-          <div class="accordion__body"><p data-i18n="different.item3.text">Agentes de IA, automações de atendimento, planilhas e mensagens automáticas.</p></div>
+          <div class="accordion__body"><p data-i18n="faq.item3.a">Projetos típicos ficam prontos entre 2 e 6 semanas, conforme a complexidade.</p></div>
         </div>
         <div class="accordion__row">
           <button class="accordion__head">
-            <span class="accordion__num">04</span>
-            <span class="accordion__title" data-i18n="different.item4.title">Design que guia o cliente (UI/UX)</span>
+            <span class="accordion__title" data-i18n="faq.item4.q">O site já vem otimizado para o Google?</span>
             <span class="accordion__toggle" aria-hidden="true">+</span>
           </button>
-          <div class="accordion__body"><p data-i18n="different.item4.text">Cada cor, botão e texto posicionado para levar o visitante à ação.</p></div>
+          <div class="accordion__body"><p data-i18n="faq.item4.a">Sim. SEO técnico (velocidade, estrutura, meta tags, schema) faz parte de toda entrega.</p></div>
         </div>
         <div class="accordion__row">
           <button class="accordion__head">
-            <span class="accordion__num">05</span>
-            <span class="accordion__title" data-i18n="different.item5.title">Carregar rápido de verdade</span>
+            <span class="accordion__title" data-i18n="faq.item5.q">Vocês fazem manutenção depois do lançamento?</span>
             <span class="accordion__toggle" aria-hidden="true">+</span>
           </button>
-          <div class="accordion__body"><p data-i18n="different.item5.text">Sites em menos de 2 segundos; performance que retém e melhora ranking.</p></div>
+          <div class="accordion__body"><p data-i18n="faq.item5.a">Sim, oferecemos planos de acompanhamento e evolução contínua.</p></div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== NÚMEROS ===================== -->
-  <section class="section stats">
-    <div class="container stats__grid">
-      <div class="stat">
-        <p class="stat__number" data-count="50">0</p>
-        <p class="stat__label" data-i18n="stats.item1">Projetos entregues</p>
-      </div>
-      <div class="stat">
-        <p class="stat__number" data-count="300">0</p>
-        <p class="stat__label" data-i18n="stats.item2">Clientes atendidos</p>
-      </div>
-      <div class="stat">
-        <p class="stat__number" data-count="2" data-prefix="&lt;" data-suffix="s">0</p>
-        <p class="stat__label" data-i18n="stats.item3">Tempo de carregamento</p>
-      </div>
-      <div class="stat">
-        <p class="stat__number" data-count="100" data-suffix="%">0</p>
-        <p class="stat__label" data-i18n="stats.item4">Foco em resultado</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== NOSSOS SERVIÇOS ===================== -->
-  <section class="section" id="servicos">
-    <div class="container">
-      <h2 class="section__title">
-        <span data-i18n="services.title.a">Nossos</span> <span class="serif-accent" data-i18n="services.title.b">serviços</span>
-      </h2>
-      <p class="section__text" data-i18n="services.text">Na RaoviAI oferecemos pacotes de soluções que vão muito além da criação de sites.</p>
-
-      <div class="services-list">
-        <div class="service-row">
-          <h3 class="service-row__title"><span data-i18n="services.item1.title1">Implantação de</span> <span class="serif-accent" data-i18n="services.item1.title2">SEO</span></h3>
-          <p class="service-row__text" data-i18n="services.item1.text">SEO local: apareça nas buscas orgânicas.</p>
-        </div>
-        <div class="service-row">
-          <h3 class="service-row__title"><span data-i18n="services.item2.title1">Automações com</span> <span class="serif-accent" data-i18n="services.item2.title2">IA</span></h3>
-          <p class="service-row__text" data-i18n="services.item2.text">Agentes e fluxos inteligentes para seu negócio.</p>
-        </div>
-        <div class="service-row">
-          <h3 class="service-row__title"><span data-i18n="services.item3.title1">Hospedagem &amp;</span> <span class="serif-accent" data-i18n="services.item3.title2">Manutenção</span></h3>
-          <p class="service-row__text" data-i18n="services.item3.text">Hospedagem segura e manutenções pontuais ou mensais.</p>
-        </div>
-        <div class="service-row">
-          <h3 class="service-row__title"><span data-i18n="services.item4.title1">Copywriting</span> <span class="serif-accent" data-i18n="services.item4.title2">Conversivo</span></h3>
-          <p class="service-row__text" data-i18n="services.item4.text">Escrita persuasiva para aumentar a conversão.</p>
-        </div>
-      </div>
-
-      <div class="services-cta">
-        <p data-i18n="services.ctaText">Clique no botão para falar conosco sobre nossos serviços.</p>
-        <a href="#contato" class="btn btn--outline" data-i18n="services.ctaButton">Preciso de um serviço</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== QUEM SOMOS / TIME ===================== -->
-  <section class="section" id="quem-somos">
-    <div class="container team">
-      <div class="team__intro">
-        <h2 class="section__title">
-          <span data-i18n="team.title.a">Conheça o</span> <span class="serif-accent" data-i18n="team.title.b">time RaoviAI</span>
-        </h2>
-        <p class="section__text" data-i18n="team.text">A RaoviAI nasceu com um objetivo: superar as expectativas do mercado, entregando soluções digitais que não apenas funcionam, mas encantam e convertem.</p>
-        <div class="team__ambient" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
-      </div>
-
-      <div class="team__cards">
-        <article class="team-card">
-          <div class="team-card__photo" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
-          <h3 class="team-card__name"><!-- TROCAR --> [Nome do Fundador]</h3>
-          <p class="team-card__role" data-i18n="team.role1">Fundador &amp; Estrategista Digital</p>
-          <p class="team-card__bio" data-i18n="team.bio1">Une design, tecnologia e IA para transformar presença digital em resultado real.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== DEPOIMENTOS ===================== -->
-  <section class="section" id="depoimentos">
-    <p class="bg-word" aria-hidden="true" data-i18n="testimonials.bgword">Depoimentos</p>
-    <div class="container">
-      <h2 class="section__title">
-        <span data-i18n="testimonials.title.a">Nossos</span> <span class="serif-accent" data-i18n="testimonials.title.b">clientes</span>
-      </h2>
-      <p class="section__text" data-i18n="testimonials.text">O feedback de nossos clientes é o nosso maior tesouro.</p>
-
-      <div class="testimonials">
-        <article class="testimonial-card">
-          <div class="testimonial-card__photo" aria-hidden="true"></div>
-          <p class="testimonial-card__quote" data-i18n="testimonials.item1.quote">"O site novo triplicou os pedidos de orçamento em dois meses. A equipe da RaoviAI entendeu exatamente o que eu precisava."</p>
-          <p class="testimonial-card__name">Fernanda Rocha</p>
-          <p class="testimonial-card__role" data-i18n="testimonials.item1.role">Advogada</p>
-        </article>
-        <article class="testimonial-card">
-          <div class="testimonial-card__photo" aria-hidden="true"></div>
-          <p class="testimonial-card__quote" data-i18n="testimonials.item2.quote">"A automação de atendimento tirou um peso enorme das minhas costas. Hoje respondo clientes até enquanto durmo."</p>
-          <p class="testimonial-card__name">Marcos Vieira</p>
-          <p class="testimonial-card__role" data-i18n="testimonials.item2.role">Corretor de Imóveis</p>
-        </article>
-        <article class="testimonial-card">
-          <div class="testimonial-card__photo" aria-hidden="true"></div>
-          <p class="testimonial-card__quote" data-i18n="testimonials.item3.quote">"Processo rápido, direto e sem enrolação. Em duas semanas eu já tinha um site que realmente vendia."</p>
-          <p class="testimonial-card__name">Juliana Prado</p>
-          <p class="testimonial-card__role" data-i18n="testimonials.item3.role">Esteticista</p>
-        </article>
       </div>
     </div>
   </section>
 
   <!-- ===================== CONTATO ===================== -->
   <section class="section" id="contato">
-    <p class="bg-word" aria-hidden="true" data-i18n="contact.bgword">Contato</p>
     <div class="container">
       <h2 class="section__title">
-        <span data-i18n="contact.title.a">Fale</span> <span class="serif-accent" data-i18n="contact.title.b">conosco</span>
+        <span data-i18n="contact.title.a">Fale</span> <span class="accent-word" data-i18n="contact.title.b">conosco</span>
       </h2>
-      <p class="section__text" data-i18n="contact.text">Aqui você é quem escolhe como quer ser atendido: e-mail, WhatsApp ou vídeo chamada!</p>
+      <p class="section__text" data-i18n="contact.text">Conta pra gente sobre sua marca e a gente te manda uma proposta.</p>
 
       <div class="contact-grid">
         <form class="contact-form" id="contactForm" action="#" method="post"> <!-- TROCAR: integrar Formspree/EmailJS -->
@@ -421,16 +362,12 @@
             <input type="text" name="name" required data-i18n-placeholder="contact.form.namePh" placeholder="Seu nome completo">
           </label>
           <label class="field">
-            <span data-i18n="contact.form.whatsapp">WhatsApp</span>
-            <input type="tel" name="whatsapp" required data-i18n-placeholder="contact.form.whatsappPh" placeholder="(00) 00000-0000">
-          </label>
-          <label class="field">
             <span data-i18n="contact.form.email">E-mail</span>
             <input type="email" name="email" required data-i18n-placeholder="contact.form.emailPh" placeholder="voce@email.com">
           </label>
           <label class="field">
             <span data-i18n="contact.form.message">Mensagem</span>
-            <textarea name="message" rows="4" required data-i18n-placeholder="contact.form.messagePh" placeholder="Conte um pouco sobre seu projeto"></textarea>
+            <textarea name="message" rows="4" required data-i18n-placeholder="contact.form.messagePh" placeholder="Conte um pouco sobre sua marca e seu projeto"></textarea>
           </label>
           <button type="submit" class="btn btn--primary" data-i18n="contact.form.submit">ENVIAR AGORA</button>
           <p class="form-success" id="formSuccess" role="status" data-i18n="contact.form.success">Mensagem enviada! Vamos te responder em breve.</p>
@@ -439,40 +376,12 @@
         <div class="contact-cards">
           <a href="https://wa.me/5532984762445" target="_blank" rel="noopener" class="contact-card">
             <span class="contact-card__icon" aria-hidden="true">☎</span>
-            <h3 data-i18n="contact.whatsapp.title">Nos chame no Whats!</h3>
+            <h3 data-i18n="contact.whatsapp.title">Fale no WhatsApp</h3>
           </a>
-          <a href="https://calendly.com/raoviai" target="_blank" rel="noopener" class="contact-card"> <!-- TROCAR -->
-            <span class="contact-card__icon" aria-hidden="true">◷</span>
-            <h3 data-i18n="contact.call.title">Agende sua call!</h3>
+          <a href="mailto:contato@raovi.com" class="contact-card"> <!-- TROCAR -->
+            <span class="contact-card__icon" aria-hidden="true">✉</span>
+            <h3 data-i18n="contact.email.title">Envie um e-mail</h3>
           </a>
-        </div>
-      </div>
-
-      <div class="contact-social-proof">
-        <div class="avatar-stack" aria-hidden="true">
-          <span class="avatar"></span><span class="avatar"></span><span class="avatar"></span><span class="avatar"></span>
-        </div>
-        <p data-i18n="contact.socialProof">Junte-se aos +300 clientes atendidos pela equipe RaoviAI!</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== BANNER FINAL ===================== -->
-  <section class="section final-banner">
-    <div class="container final-banner__grid">
-      <div class="final-banner__ambient" aria-hidden="true"><!-- TROCAR IMAGEM --></div>
-      <div class="final-banner__content">
-        <h2 class="final-banner__title">
-          <span data-i18n="finalBanner.title.a">Inteligência real,</span><br>
-          <span class="serif-accent" data-i18n="finalBanner.title.b">resultados reais</span>
-        </h2>
-        <p data-i18n="finalBanner.text">Plante sua presença digital com a RaoviAI!</p>
-        <a href="#contato" class="btn btn--primary btn--lg" data-i18n="finalBanner.cta">CLIQUE E COMECE AGORA!</a>
-        <div class="social-icons">
-          <a href="#" aria-label="Instagram">◎</a> <!-- TROCAR -->
-          <a href="#" aria-label="Facebook">◉</a> <!-- TROCAR -->
-          <a href="#" aria-label="LinkedIn">◈</a> <!-- TROCAR -->
-          <a href="#" aria-label="YouTube">▶</a> <!-- TROCAR -->
         </div>
       </div>
     </div>
@@ -484,32 +393,32 @@
 <footer class="footer">
   <div class="container footer__grid">
     <div class="footer__brand">
-      <span class="logo logo--lg"><span class="logo__raovi">Raovi</span><span class="logo__ai">AI</span></span>
+      <span class="logo logo--lg"><span class="logo__raovi">Raovi</span><span class="logo__labs">Labs</span></span>
+      <p class="footer__tagline" data-i18n="footer.tagline">Identidade digital que posiciona.</p>
     </div>
     <div class="footer__sitemap">
       <h4 data-i18n="footer.sitemap">Mapa do site</h4>
       <a href="#home" data-i18n="nav.home">Home</a>
-      <a href="#quem-somos" data-i18n="nav.about">Quem somos</a>
-      <a href="#servicos" data-i18n="nav.services">Serviços</a>
+      <a href="#servicos" data-i18n="nav.services">O que fazemos</a>
+      <a href="#processo" data-i18n="nav.process">Processo</a>
       <a href="#portfolio" data-i18n="nav.portfolio">Portfólio</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
       <a href="#contato" data-i18n="nav.contact">Contato</a>
     </div>
     <div class="footer__contact">
       <h4 data-i18n="footer.contact">Contato</h4>
       <p>+55 32 98476-2445</p>
-      <p>@raoviai</p> <!-- TROCAR -->
-      <p>contato@raoviai.com</p> <!-- TROCAR -->
-      <p>/raoviai</p> <!-- TROCAR -->
+      <p>contato@raovi.com</p> <!-- TROCAR -->
+      <p>@raovilabs</p> <!-- TROCAR -->
     </div>
   </div>
   <div class="footer__bottom">
-    <p data-i18n="footer.copyright">© 2026 Todos os direitos reservados à RaoviAI — Soluções Digitais.</p>
+    <p data-i18n="footer.copyright">© 2026 Todos os direitos reservados à Raovi Labs.</p>
     <p class="footer__legal">
       <a href="#" data-i18n="footer.terms">Termos de Uso</a> |
       <a href="#" data-i18n="footer.privacy">Política de Privacidade</a> |
       <a href="#" data-i18n="footer.cookiePolicy">Política de Cookies</a>
     </p>
-    <p data-i18n="footer.madeWith">Desenvolvido com ♥ por nós mesmos.</p>
   </div>
 </footer>
 

@@ -4,120 +4,92 @@
   /* ===================== I18N DICTIONARY ===================== */
   const i18n = {
     pt: {
-      'meta.title': 'RaoviAI — Criação de Sites Profissionais e Automações com IA',
-      'meta.description': 'A RaoviAI cria sites, landing pages e automações com inteligência artificial que geram resultado de verdade: mais leads e mais vendas.',
+      'meta.title': 'Raovi Labs | Identidade Digital Profissional, Sites e SEO',
+      'meta.description': 'A Raovi Labs cria identidades digitais profissionais: sites com design único, identidade visual forte e otimização SEO. Destaque sua marca no Google.',
 
-      'nav.home': 'Home', 'nav.about': 'Quem somos', 'nav.services': 'Serviços',
-      'nav.portfolio': 'Portfólio', 'nav.contact': 'Contato', 'nav.cta': 'Quero um orçamento',
+      'nav.home': 'Home', 'nav.services': 'O que fazemos', 'nav.process': 'Processo',
+      'nav.portfolio': 'Portfólio', 'nav.faq': 'FAQ', 'nav.contact': 'Contato',
+      'nav.cta': 'Solicite uma proposta',
 
-      'hero.badge': '• SOLUÇÕES DIGITAIS COM INTELIGÊNCIA ARTIFICIAL •',
-      'hero.title.line1': 'Criação de sites profissionais',
-      'hero.title.line2': 'e automações com IA',
-      'hero.subtitle': 'Na <strong>RaoviAI</strong> não criamos apenas sites bonitos… criamos <strong>máquinas de gerar oportunidades</strong> no mundo digital.',
-      'hero.cta': 'Entre em contato',
-      'hero.scroll': 'EXPLORE NOSSO PORTFÓLIO • EXPLORE NOSSO PORTFÓLIO •',
+      'hero.badge': '• IDENTIDADE DIGITAL PROFISSIONAL •',
+      'hero.title.line1': 'Sua marca merece mais do que',
+      'hero.title.line2': 'um site genérico.',
+      'hero.subtitle': 'A <strong>Raovi Labs</strong> desenvolve identidades digitais completas — design exclusivo, identidade visual forte e posicionamento estratégico no Google — para profissionais e empresas que querem ser levados a sério online.',
+      'hero.cta.primary': 'Solicite uma proposta',
+      'hero.cta.secondary': 'Conheça nosso processo',
 
-      'trust.label': 'Empresas que confiam na RaoviAI',
+      'pillars.title.a': 'O que', 'pillars.title.b': 'fazemos',
+      'pillars.text': 'Três pilares que sustentam toda identidade digital que construímos.',
+      'pillars.item1.title': 'Design Único',
+      'pillars.item1.text': 'Nada de templates. Cada projeto nasce do zero, desenhado para a sua marca, seu público e seus objetivos. Um site que ninguém mais tem.',
+      'pillars.item2.title': 'Identidade Visual',
+      'pillars.item2.text': 'Cores, tipografia, logo e linguagem alinhados em todos os pontos de contato. Sua marca reconhecível do primeiro clique ao pós-venda.',
+      'pillars.item3.title': 'SEO & Performance',
+      'pillars.item3.text': 'Sites rápidos, estruturados para o Google desde a primeira linha de código. Não basta ser bonito — precisa ser encontrado.',
 
-      'portfolio.bgword': 'Portfólio',
+      'why.title.a': 'Por que', 'why.title.b': 'a Raovi',
+      'why.text': 'O que nos diferencia de uma agência genérica.',
+      'why.item1.title': 'Atenção aos detalhes',
+      'why.item1.text': 'Cada pixel, cada texto e cada meta tag é pensado — nada vai para o ar por acaso.',
+      'why.item2.title': 'Estratégia antes da estética',
+      'why.item2.text': 'Entendemos seu negócio antes de desenhar qualquer tela.',
+      'why.item3.title': 'Performance como padrão',
+      'why.item3.text': 'Sites leves, com carregamento rápido e nota alta no Core Web Vitals.',
+      'why.item4.title': 'Entrega completa',
+      'why.item4.text': 'Você não recebe "um site", recebe uma identidade digital pronta para crescer.',
+
+      'process.title.a': 'Nosso', 'process.title.b': 'processo',
+      'process.text': 'Da primeira conversa ao site no ar, sem surpresas no caminho.',
+      'process.item1.title': 'Diagnóstico',
+      'process.item1.text': 'Entendemos sua marca, público e concorrência.',
+      'process.item2.title': 'Design',
+      'process.item2.text': 'Criamos a identidade visual e o layout exclusivo, com sua aprovação em cada etapa.',
+      'process.item3.title': 'Desenvolvimento',
+      'process.item3.text': 'Código limpo, responsivo e otimizado para velocidade.',
+      'process.item4.title': 'Lançamento & SEO',
+      'process.item4.text': 'Publicação, indexação no Google e configuração de métricas.',
+
       'portfolio.title.a': 'Nosso', 'portfolio.title.b': 'portfólio',
-      'portfolio.text': 'Selecionamos alguns projetos da equipe RaoviAI para você dar uma espiada.',
-      'portfolio.item1': 'Landing Page para Advogado',
-      'portfolio.item2': 'Site para Imobiliária',
-      'portfolio.item3': 'Site para Clínica',
-      'portfolio.item4': 'E-commerce de Cosméticos',
-      'portfolio.item5': 'Automação com IA para Atendimento',
-      'portfolio.item6': 'Landing Page para Lançamentos',
+      'portfolio.text': 'Uma seleção de projetos pensados para os perfis que mais atendemos.',
+      'portfolio.item1': 'Site de Autoridade para Advogado',
+      'portfolio.item2': 'Identidade Visual para Clínica Odontológica',
+      'portfolio.item3': 'Site Institucional para Escritório de Arquitetura',
+      'portfolio.item4': 'Identidade Visual para PME de Varejo',
+      'portfolio.item5': 'Site de Marca Pessoal para Criador de Conteúdo',
+      'portfolio.item6': 'SEO Local para Clínica de Estética',
 
-      'categories.text': 'LANDING PAGES ✦ SITES INSTITUCIONAIS ✦ AUTOMAÇÕES COM IA ✦ BLOGS ✦ PLATAFORMAS ✦ HOSPEDAGEM ✦ UI/UX ✦',
+      'ctaMid.title': 'Pronto pra ter uma identidade digital de verdade?',
+      'ctaMid.text': 'Fale com a gente pelo WhatsApp e receba um diagnóstico <strong>gratuito</strong>.',
+      'ctaMid.button': 'Solicite uma proposta',
 
-      'solutions.title.a': 'Tipos', 'solutions.title.b': 'de soluções',
-      'solutions.text': 'Com a RaoviAI sua presença digital será marcada por grandes resultados. Não fazemos sites "só bonitos" — fazemos sites para gerar + vendas!',
-      'solutions.item1.title': 'Sites Institucionais',
-      'solutions.item1.text': 'Apresente sua empresa ao mundo e comunique seus valores e serviços.',
-      'solutions.item2.title': 'Páginas de Captura',
-      'solutions.item2.text': 'Transforme visitantes em leads com páginas de alta performance.',
-      'solutions.item3.title': 'Landing Pages',
-      'solutions.item3.text': 'Otimize suas campanhas com páginas focadas em resultados.',
-      'solutions.item4.title': 'Automações com IA',
-      'solutions.item4.text': 'Atendimento, mensagens e rotinas funcionando no automático.',
-      'solutions.item5.title': 'Blogs',
-      'solutions.item5.text': 'Construa autoridade e fidelize clientes com conteúdo de valor.',
-      'solutions.item6.title': 'Sites Dinâmicos',
-      'solutions.item6.text': 'Gerencie seu conteúdo de forma fácil e independente.',
+      'faq.title.a': 'Perguntas', 'faq.title.b': 'frequentes',
+      'faq.text': 'O que a gente mais escuta antes de fechar um projeto.',
+      'faq.item1.q': 'O que é identidade digital?',
+      'faq.item1.a': 'É o conjunto de tudo que representa sua marca online: site, identidade visual, presença no Google e redes. A Raovi cuida disso de forma integrada.',
+      'faq.item2.q': 'Quanto custa um site profissional?',
+      'faq.item2.a': 'Depende do escopo. Após o diagnóstico gratuito, enviamos uma proposta personalizada.',
+      'faq.item3.q': 'Quanto tempo leva?',
+      'faq.item3.a': 'Projetos típicos ficam prontos entre 2 e 6 semanas, conforme a complexidade.',
+      'faq.item4.q': 'O site já vem otimizado para o Google?',
+      'faq.item4.a': 'Sim. SEO técnico (velocidade, estrutura, meta tags, schema) faz parte de toda entrega.',
+      'faq.item5.q': 'Vocês fazem manutenção depois do lançamento?',
+      'faq.item5.a': 'Sim, oferecemos planos de acompanhamento e evolução contínua.',
 
-      'ctaMid.title': 'Precisando de um site que traga resultados no digital?',
-      'ctaMid.text': 'Fale diretamente conosco pelo WhatsApp e faça seu orçamento em apenas <strong>10 minutos</strong>!',
-      'ctaMid.button': 'Quero um orçamento',
-
-      'different.title.a': 'O que fazemos', 'different.title.b': 'de diferente?',
-      'different.text': 'Vamos direto ao ponto: nosso trabalho é fazer seu site trazer resultados. Não é sobre tecnologia complicada — é sobre soluções de verdade.',
-      'different.item1.title': 'Aparecer no Google naturalmente',
-      'different.item1.text': 'SEO técnico: estrutura limpa, velocidade e conteúdo organizado → tráfego orgânico.',
-      'different.item2.title': 'Capturar mais clientes',
-      'different.item2.text': 'Formulários estratégicos, botões de WhatsApp e ofertas no lugar certo → conversão.',
-      'different.item3.title': 'Economizar seu tempo com IA',
-      'different.item3.text': 'Agentes de IA, automações de atendimento, planilhas e mensagens automáticas.',
-      'different.item4.title': 'Design que guia o cliente (UI/UX)',
-      'different.item4.text': 'Cada cor, botão e texto posicionado para levar o visitante à ação.',
-      'different.item5.title': 'Carregar rápido de verdade',
-      'different.item5.text': 'Sites em menos de 2 segundos; performance que retém e melhora ranking.',
-
-      'stats.item1': 'Projetos entregues',
-      'stats.item2': 'Clientes atendidos',
-      'stats.item3': 'Tempo de carregamento',
-      'stats.item4': 'Foco em resultado',
-
-      'services.title.a': 'Nossos', 'services.title.b': 'serviços',
-      'services.text': 'Na RaoviAI oferecemos pacotes de soluções que vão muito além da criação de sites.',
-      'services.item1.title1': 'Implantação de', 'services.item1.title2': 'SEO',
-      'services.item1.text': 'SEO local: apareça nas buscas orgânicas.',
-      'services.item2.title1': 'Automações com', 'services.item2.title2': 'IA',
-      'services.item2.text': 'Agentes e fluxos inteligentes para seu negócio.',
-      'services.item3.title1': 'Hospedagem &', 'services.item3.title2': 'Manutenção',
-      'services.item3.text': 'Hospedagem segura e manutenções pontuais ou mensais.',
-      'services.item4.title1': 'Copywriting', 'services.item4.title2': 'Conversivo',
-      'services.item4.text': 'Escrita persuasiva para aumentar a conversão.',
-      'services.ctaText': 'Clique no botão para falar conosco sobre nossos serviços.',
-      'services.ctaButton': 'Preciso de um serviço',
-
-      'team.title.a': 'Conheça o', 'team.title.b': 'time RaoviAI',
-      'team.text': 'A RaoviAI nasceu com um objetivo: superar as expectativas do mercado, entregando soluções digitais que não apenas funcionam, mas encantam e convertem.',
-      'team.role1': 'Fundador & Estrategista Digital',
-      'team.bio1': 'Une design, tecnologia e IA para transformar presença digital em resultado real.',
-
-      'testimonials.bgword': 'Depoimentos',
-      'testimonials.title.a': 'Nossos', 'testimonials.title.b': 'clientes',
-      'testimonials.text': 'O feedback de nossos clientes é o nosso maior tesouro.',
-      'testimonials.item1.quote': '"O site novo triplicou os pedidos de orçamento em dois meses. A equipe da RaoviAI entendeu exatamente o que eu precisava."',
-      'testimonials.item1.role': 'Advogada',
-      'testimonials.item2.quote': '"A automação de atendimento tirou um peso enorme das minhas costas. Hoje respondo clientes até enquanto durmo."',
-      'testimonials.item2.role': 'Corretor de Imóveis',
-      'testimonials.item3.quote': '"Processo rápido, direto e sem enrolação. Em duas semanas eu já tinha um site que realmente vendia."',
-      'testimonials.item3.role': 'Esteticista',
-
-      'contact.bgword': 'Contato',
       'contact.title.a': 'Fale', 'contact.title.b': 'conosco',
-      'contact.text': 'Aqui você é quem escolhe como quer ser atendido: e-mail, WhatsApp ou vídeo chamada!',
+      'contact.text': 'Conta pra gente sobre sua marca e a gente te manda uma proposta.',
       'contact.form.name': 'Nome', 'contact.form.namePh': 'Seu nome completo',
-      'contact.form.whatsapp': 'WhatsApp', 'contact.form.whatsappPh': '(00) 00000-0000',
       'contact.form.email': 'E-mail', 'contact.form.emailPh': 'voce@email.com',
-      'contact.form.message': 'Mensagem', 'contact.form.messagePh': 'Conte um pouco sobre seu projeto',
+      'contact.form.message': 'Mensagem', 'contact.form.messagePh': 'Conte um pouco sobre sua marca e seu projeto',
       'contact.form.submit': 'ENVIAR AGORA',
       'contact.form.success': 'Mensagem enviada! Vamos te responder em breve.',
-      'contact.whatsapp.title': 'Nos chame no Whats!',
-      'contact.call.title': 'Agende sua call!',
-      'contact.socialProof': 'Junte-se aos +300 clientes atendidos pela equipe RaoviAI!',
+      'contact.whatsapp.title': 'Fale no WhatsApp',
+      'contact.email.title': 'Envie um e-mail',
 
-      'finalBanner.title.a': 'Inteligência real,', 'finalBanner.title.b': 'resultados reais',
-      'finalBanner.text': 'Plante sua presença digital com a RaoviAI!',
-      'finalBanner.cta': 'CLIQUE E COMECE AGORA!',
-
+      'footer.tagline': 'Identidade digital que posiciona.',
       'footer.sitemap': 'Mapa do site', 'footer.contact': 'Contato',
-      'footer.copyright': '© 2026 Todos os direitos reservados à RaoviAI — Soluções Digitais.',
+      'footer.copyright': '© 2026 Todos os direitos reservados à Raovi Labs.',
       'footer.terms': 'Termos de Uso', 'footer.privacy': 'Política de Privacidade',
       'footer.cookiePolicy': 'Política de Cookies',
-      'footer.madeWith': 'Desenvolvido com ♥ por nós mesmos.',
 
       'cookies.text': 'Ao clicar em <strong>"Aceitar"</strong>, você concorda com o armazenamento de cookies no seu dispositivo para melhorar a navegação, analisar o uso do site e apoiar nossas ações de marketing. Veja nossa <a href="#" id="cookiePrefsLink">Política de Privacidade</a>.',
       'cookies.preferences': 'Preferências', 'cookies.reject': 'Recusar', 'cookies.accept': 'Aceitar',
@@ -127,120 +99,92 @@
     },
 
     en: {
-      'meta.title': 'RaoviAI — Professional Website Creation and AI Automation',
-      'meta.description': 'RaoviAI builds websites, landing pages and AI automation that deliver real results: more leads and more sales.',
+      'meta.title': 'Raovi Labs | Professional Digital Identity, Websites & SEO',
+      'meta.description': 'Raovi Labs builds professional digital identities: websites with unique design, strong visual identity and SEO optimization. Get your brand found on Google.',
 
-      'nav.home': 'Home', 'nav.about': 'About us', 'nav.services': 'Services',
-      'nav.portfolio': 'Portfolio', 'nav.contact': 'Contact', 'nav.cta': 'Get a quote',
+      'nav.home': 'Home', 'nav.services': 'What we do', 'nav.process': 'Process',
+      'nav.portfolio': 'Portfolio', 'nav.faq': 'FAQ', 'nav.contact': 'Contact',
+      'nav.cta': 'Get a proposal',
 
-      'hero.badge': '• DIGITAL SOLUTIONS POWERED BY AI •',
-      'hero.title.line1': 'Professional website creation',
-      'hero.title.line2': 'and AI-powered automation',
-      'hero.subtitle': 'At <strong>RaoviAI</strong> we don’t just build beautiful websites… we build <strong>opportunity-generating machines</strong> for the digital world.',
-      'hero.cta': 'Get in touch',
-      'hero.scroll': 'EXPLORE OUR WORK • EXPLORE OUR WORK •',
+      'hero.badge': '• PROFESSIONAL DIGITAL IDENTITY •',
+      'hero.title.line1': 'Your brand deserves more than',
+      'hero.title.line2': 'a generic website.',
+      'hero.subtitle': '<strong>Raovi Labs</strong> builds complete digital identities — exclusive design, strong visual identity and strategic positioning on Google — for professionals and companies who want to be taken seriously online.',
+      'hero.cta.primary': 'Get a proposal',
+      'hero.cta.secondary': 'See our process',
 
-      'trust.label': 'Companies that trust RaoviAI',
+      'pillars.title.a': 'What', 'pillars.title.b': 'we do',
+      'pillars.text': 'Three pillars behind every digital identity we build.',
+      'pillars.item1.title': 'Unique Design',
+      'pillars.item1.text': 'No templates. Every project is built from scratch, designed for your brand, your audience and your goals. A website nobody else has.',
+      'pillars.item2.title': 'Visual Identity',
+      'pillars.item2.text': 'Colors, typography, logo and voice aligned across every touchpoint. Your brand recognizable from the first click to after-sales.',
+      'pillars.item3.title': 'SEO & Performance',
+      'pillars.item3.text': 'Fast websites, structured for Google from the very first line of code. Looking good isn\'t enough — you need to be found.',
 
-      'portfolio.bgword': 'Work',
-      'portfolio.title.a': 'Our', 'portfolio.title.b': 'work',
-      'portfolio.text': 'A hand-picked selection of RaoviAI projects for you to explore.',
-      'portfolio.item1': 'Landing Page for a Law Firm',
-      'portfolio.item2': 'Real Estate Website',
-      'portfolio.item3': 'Clinic Website',
-      'portfolio.item4': 'Cosmetics E-commerce',
-      'portfolio.item5': 'AI Customer Service Automation',
-      'portfolio.item6': 'Product Launch Landing Page',
+      'why.title.a': 'Why', 'why.title.b': 'Raovi',
+      'why.text': 'What sets us apart from a generic agency.',
+      'why.item1.title': 'Attention to detail',
+      'why.item1.text': 'Every pixel, every word and every meta tag is deliberate — nothing goes live by accident.',
+      'why.item2.title': 'Strategy before aesthetics',
+      'why.item2.text': 'We understand your business before designing a single screen.',
+      'why.item3.title': 'Performance by default',
+      'why.item3.text': 'Lightweight websites, fast loading and high Core Web Vitals scores.',
+      'why.item4.title': 'Complete delivery',
+      'why.item4.text': 'You don\'t get "a website" — you get a digital identity ready to grow.',
 
-      'categories.text': 'LANDING PAGES ✦ BUSINESS WEBSITES ✦ AI AUTOMATION ✦ BLOGS ✦ PLATFORMS ✦ HOSTING ✦ UI/UX ✦',
+      'process.title.a': 'Our', 'process.title.b': 'process',
+      'process.text': 'From the first conversation to launch, no surprises along the way.',
+      'process.item1.title': 'Diagnosis',
+      'process.item1.text': 'We understand your brand, audience and competition.',
+      'process.item2.title': 'Design',
+      'process.item2.text': 'We create the visual identity and exclusive layout, with your approval at every step.',
+      'process.item3.title': 'Development',
+      'process.item3.text': 'Clean code, responsive and optimized for speed.',
+      'process.item4.title': 'Launch & SEO',
+      'process.item4.text': 'Publishing, Google indexing and metrics setup.',
 
-      'solutions.title.a': 'Types', 'solutions.title.b': 'of solutions',
-      'solutions.text': 'With RaoviAI your digital presence will be marked by great results. We don’t build "just pretty" websites — we build websites to generate + sales!',
-      'solutions.item1.title': 'Business Websites',
-      'solutions.item1.text': 'Introduce your company to the world and communicate your values and services.',
-      'solutions.item2.title': 'Lead Capture Pages',
-      'solutions.item2.text': 'Turn visitors into leads with high-performance pages.',
-      'solutions.item3.title': 'Landing Pages',
-      'solutions.item3.text': 'Optimize your campaigns with results-focused pages.',
-      'solutions.item4.title': 'AI Automation',
-      'solutions.item4.text': 'Customer service, messages and routines running on autopilot.',
-      'solutions.item5.title': 'Blogs',
-      'solutions.item5.text': 'Build authority and retain clients with valuable content.',
-      'solutions.item6.title': 'Dynamic Websites',
-      'solutions.item6.text': 'Manage your content easily and independently.',
+      'portfolio.title.a': 'Our', 'portfolio.title.b': 'portfolio',
+      'portfolio.text': 'A selection of projects designed for the profiles we serve most.',
+      'portfolio.item1': 'Authority Website for a Lawyer',
+      'portfolio.item2': 'Visual Identity for a Dental Clinic',
+      'portfolio.item3': 'Business Website for an Architecture Firm',
+      'portfolio.item4': 'Visual Identity for a Retail SMB',
+      'portfolio.item5': 'Personal Brand Website for a Content Creator',
+      'portfolio.item6': 'Local SEO for an Aesthetics Clinic',
 
-      'ctaMid.title': 'Need a website that actually delivers results?',
-      'ctaMid.text': 'Talk to us on WhatsApp and get your quote in just <strong>10 minutes</strong>!',
-      'ctaMid.button': 'Get a quote',
+      'ctaMid.title': 'Ready for a real digital identity?',
+      'ctaMid.text': 'Talk to us on WhatsApp and get a <strong>free</strong> diagnosis.',
+      'ctaMid.button': 'Get a proposal',
 
-      'different.title.a': 'What do we do', 'different.title.b': 'differently?',
-      'different.text': 'Let’s get straight to the point: our job is to make your website deliver results. It’s not about complicated technology — it’s about real solutions.',
-      'different.item1.title': 'Rank on Google organically',
-      'different.item1.text': 'Technical SEO: clean structure, speed and organized content → organic traffic.',
-      'different.item2.title': 'Capture more clients',
-      'different.item2.text': 'Strategic forms, WhatsApp buttons and offers in the right place → conversion.',
-      'different.item3.title': 'Save time with AI',
-      'different.item3.text': 'AI agents, customer service automation, spreadsheets and automatic messages.',
-      'different.item4.title': 'Design that guides the client (UI/UX)',
-      'different.item4.text': 'Every color, button and text placed to drive the visitor to action.',
-      'different.item5.title': 'Truly fast loading',
-      'different.item5.text': 'Websites in under 2 seconds; performance that retains and improves ranking.',
+      'faq.title.a': 'Frequently', 'faq.title.b': 'asked questions',
+      'faq.text': 'What we hear most before closing a project.',
+      'faq.item1.q': 'What is digital identity?',
+      'faq.item1.a': 'It\'s everything that represents your brand online: website, visual identity, Google presence and social media. Raovi handles it all in an integrated way.',
+      'faq.item2.q': 'How much does a professional website cost?',
+      'faq.item2.a': 'It depends on scope. After a free diagnosis, we send a tailored proposal.',
+      'faq.item3.q': 'How long does it take?',
+      'faq.item3.a': 'Typical projects take 2 to 6 weeks, depending on complexity.',
+      'faq.item4.q': 'Is the website already optimized for Google?',
+      'faq.item4.a': 'Yes. Technical SEO (speed, structure, meta tags, schema) is part of every delivery.',
+      'faq.item5.q': 'Do you offer maintenance after launch?',
+      'faq.item5.a': 'Yes, we offer follow-up and continuous evolution plans.',
 
-      'stats.item1': 'Projects delivered',
-      'stats.item2': 'Clients served',
-      'stats.item3': 'Load time',
-      'stats.item4': 'Focus on results',
-
-      'services.title.a': 'Our', 'services.title.b': 'services',
-      'services.text': 'At RaoviAI we offer solution packages that go far beyond building websites.',
-      'services.item1.title1': 'SEO', 'services.item1.title2': 'Implementation',
-      'services.item1.text': 'Local SEO: show up in organic search.',
-      'services.item2.title1': 'AI', 'services.item2.title2': 'Automation',
-      'services.item2.text': 'Smart agents and workflows for your business.',
-      'services.item3.title1': 'Hosting &', 'services.item3.title2': 'Maintenance',
-      'services.item3.text': 'Secure hosting and one-off or monthly maintenance.',
-      'services.item4.title1': 'Conversion', 'services.item4.title2': 'Copywriting',
-      'services.item4.text': 'Persuasive writing to increase conversion.',
-      'services.ctaText': 'Click the button to talk to us about our services.',
-      'services.ctaButton': 'I need a service',
-
-      'team.title.a': 'Meet the', 'team.title.b': 'RaoviAI team',
-      'team.text': 'RaoviAI was born with one goal: to exceed market expectations by delivering digital solutions that don’t just work, but delight and convert.',
-      'team.role1': 'Founder & Digital Strategist',
-      'team.bio1': 'Combines design, technology and AI to turn digital presence into real results.',
-
-      'testimonials.bgword': 'Testimonials',
-      'testimonials.title.a': 'Our', 'testimonials.title.b': 'clients',
-      'testimonials.text': 'Our clients’ feedback is our greatest treasure.',
-      'testimonials.item1.quote': '"The new website tripled quote requests in two months. The RaoviAI team understood exactly what I needed."',
-      'testimonials.item1.role': 'Lawyer',
-      'testimonials.item2.quote': '"The service automation took a huge weight off my shoulders. Now I respond to clients even while I sleep."',
-      'testimonials.item2.role': 'Real Estate Agent',
-      'testimonials.item3.quote': '"Fast, straightforward process, no fuss. In two weeks I already had a website that actually sold."',
-      'testimonials.item3.role': 'Esthetician',
-
-      'contact.bgword': 'Contact',
       'contact.title.a': 'Get in', 'contact.title.b': 'touch',
-      'contact.text': 'Here you choose how you want to be helped: email, WhatsApp or video call!',
+      'contact.text': 'Tell us about your brand and we\'ll send you a proposal.',
       'contact.form.name': 'Name', 'contact.form.namePh': 'Your full name',
-      'contact.form.whatsapp': 'WhatsApp', 'contact.form.whatsappPh': '(00) 00000-0000',
       'contact.form.email': 'Email', 'contact.form.emailPh': 'you@email.com',
-      'contact.form.message': 'Message', 'contact.form.messagePh': 'Tell us a bit about your project',
+      'contact.form.message': 'Message', 'contact.form.messagePh': 'Tell us a bit about your brand and your project',
       'contact.form.submit': 'SEND NOW',
-      'contact.form.success': 'Message sent! We’ll get back to you shortly.',
-      'contact.whatsapp.title': 'Chat with us on WhatsApp!',
-      'contact.call.title': 'Book your call!',
-      'contact.socialProof': 'Join the +300 clients served by the RaoviAI team!',
+      'contact.form.success': 'Message sent! We\'ll get back to you shortly.',
+      'contact.whatsapp.title': 'Chat on WhatsApp',
+      'contact.email.title': 'Send an email',
 
-      'finalBanner.title.a': 'Real intelligence,', 'finalBanner.title.b': 'real results',
-      'finalBanner.text': 'Grow your digital presence with RaoviAI!',
-      'finalBanner.cta': 'CLICK AND START NOW!',
-
+      'footer.tagline': 'Digital identity that positions.',
       'footer.sitemap': 'Sitemap', 'footer.contact': 'Contact',
-      'footer.copyright': '© 2026 All rights reserved to RaoviAI — Digital Solutions.',
+      'footer.copyright': '© 2026 All rights reserved to Raovi Labs.',
       'footer.terms': 'Terms of Use', 'footer.privacy': 'Privacy Policy',
       'footer.cookiePolicy': 'Cookie Policy',
-      'footer.madeWith': 'Built with ♥ by ourselves.',
 
       'cookies.text': 'By clicking <strong>"Accept"</strong>, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. See our <a href="#" id="cookiePrefsLink">Privacy Policy</a>.',
       'cookies.preferences': 'Preferences', 'cookies.reject': 'Reject', 'cookies.accept': 'Accept',
@@ -288,11 +232,11 @@
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', dict['meta.description']);
 
-    localStorage.setItem('raoviai-lang', lang);
+    localStorage.setItem('raovi-labs-lang', lang);
   }
 
   function initLang() {
-    const saved = localStorage.getItem('raoviai-lang');
+    const saved = localStorage.getItem('raovi-labs-lang');
     if (saved) { setLang(saved); return; }
     const browserLang = (navigator.language || 'pt').toLowerCase().startsWith('pt') ? 'pt' : 'en';
     setLang(browserLang);
@@ -308,9 +252,28 @@
 
   initLang();
 
+  /* ===================== PRELOADER ===================== */
+  const preloader = document.getElementById('preloader');
+  const PRELOADER_MIN_VISIBLE = 900;
+  const preloaderStart = performance.now();
+  document.body.classList.add('is-preloading');
+
+  function hidePreloader() {
+    if (!preloader || preloader.classList.contains('is-hidden')) return;
+    const elapsed = performance.now() - preloaderStart;
+    const wait = Math.max(0, PRELOADER_MIN_VISIBLE - elapsed);
+    setTimeout(() => {
+      preloader.classList.add('is-hidden');
+      document.body.classList.remove('is-preloading');
+    }, wait);
+  }
+
+  if (document.readyState === 'complete') hidePreloader();
+  else window.addEventListener('load', hidePreloader);
+  setTimeout(hidePreloader, 2500);
+
   /* ===================== NAVBAR SCROLL ===================== */
   const navbar = document.getElementById('navbar');
-  const sections = document.querySelectorAll('main section[id], main section[id] , section[id]');
   const navlinks = document.querySelectorAll('.navlink, .drawer__link');
 
   function onScroll() {
@@ -369,7 +332,7 @@
   prevBtn.addEventListener('click', () => scrollCarousel(-1));
   nextBtn.addEventListener('click', () => scrollCarousel(1));
 
-  /* ===================== ACCORDION ===================== */
+  /* ===================== ACCORDION (FAQ) ===================== */
   document.querySelectorAll('.accordion__row').forEach(row => {
     const head = row.querySelector('.accordion__head');
     head.addEventListener('click', () => {
@@ -378,31 +341,6 @@
       if (!wasOpen) row.classList.add('is-open');
     });
   });
-
-  /* ===================== ANIMATED STAT COUNTERS ===================== */
-  const statEls = document.querySelectorAll('.stat__number');
-  const statObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      const el = entry.target;
-      const target = parseInt(el.getAttribute('data-count'), 10);
-      const prefix = el.getAttribute('data-prefix') || '';
-      const suffix = el.getAttribute('data-suffix') || '';
-      const duration = 1400;
-      const start = performance.now();
-
-      function tick(now) {
-        const progress = Math.min((now - start) / duration, 1);
-        const value = Math.floor(progress * target);
-        el.textContent = `${prefix}${value}${suffix}`;
-        if (progress < 1) requestAnimationFrame(tick);
-        else el.textContent = `${prefix}${target}${suffix}`;
-      }
-      requestAnimationFrame(tick);
-      statObserver.unobserve(el);
-    });
-  }, { threshold: 0.5 });
-  statEls.forEach(el => statObserver.observe(el));
 
   /* ===================== ON-SCROLL REVEAL ===================== */
   const revealEls = document.querySelectorAll('.reveal');
@@ -424,9 +362,9 @@
   const cookiePrefsBtn = document.getElementById('cookiePrefsBtn');
   const cookieSavePrefs = document.getElementById('cookieSavePrefs');
 
-  const cookieChoice = localStorage.getItem('raoviai-cookies');
+  const cookieChoice = localStorage.getItem('raovi-labs-cookies');
   if (!cookieChoice) {
-    setTimeout(() => cookieBanner.classList.add('is-visible'), 1000);
+    setTimeout(() => cookieBanner.classList.add('is-visible'), 1400);
   }
 
   function hideCookieBanner() {
@@ -434,11 +372,11 @@
   }
 
   cookieAccept.addEventListener('click', () => {
-    localStorage.setItem('raoviai-cookies', 'accepted');
+    localStorage.setItem('raovi-labs-cookies', 'accepted');
     hideCookieBanner();
   });
   cookieReject.addEventListener('click', () => {
-    localStorage.setItem('raoviai-cookies', 'rejected');
+    localStorage.setItem('raovi-labs-cookies', 'rejected');
     hideCookieBanner();
   });
   cookiePrefsBtn.addEventListener('click', () => {
@@ -459,8 +397,8 @@
       analytics: document.getElementById('cookieAnalytics').checked,
       marketing: document.getElementById('cookieMarketing').checked,
     };
-    localStorage.setItem('raoviai-cookies', 'custom');
-    localStorage.setItem('raoviai-cookie-prefs', JSON.stringify(prefs));
+    localStorage.setItem('raovi-labs-cookies', 'custom');
+    localStorage.setItem('raovi-labs-cookie-prefs', JSON.stringify(prefs));
     cookieModal.classList.remove('is-visible');
     hideCookieBanner();
   });
