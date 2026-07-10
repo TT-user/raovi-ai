@@ -286,6 +286,7 @@ body.is-preloading { overflow: hidden; }
 .carousel__track::-webkit-scrollbar { display: none; }
 
 .p-card {
+  display: block;
   scroll-snap-align: start;
   flex: 0 0 clamp(240px, 30vw, 320px);
   background: var(--bg-card);
@@ -303,6 +304,8 @@ body.is-preloading { overflow: hidden; }
 }
 .p-card__number { color: var(--accent); font-family: var(--font-heading); font-weight: 800; font-size: 1.05rem; }
 .p-card__title { font-size: 1.05rem; margin-top: 8px; }
+.p-card--live { border-color: var(--accent); }
+.p-card__link { display: block; margin-top: 10px; font-size: 0.85rem; font-weight: 700; color: var(--accent); }
 
 .carousel__arrow {
   flex-shrink: 0;

@@ -56,7 +56,8 @@
       'portfolio.item3': 'Site Institucional para Escritório de Arquitetura',
       'portfolio.item4': 'Identidade Visual para PME de Varejo',
       'portfolio.item5': 'Site de Marca Pessoal para Criador de Conteúdo',
-      'portfolio.item6': 'SEO Local para Clínica de Estética',
+      'portfolio.item6': 'Site para Nutricionista Infantil — Tia Lara',
+      'portfolio.item6.link': 'Ver site ↗',
 
       'ctaMid.title': 'Pronto pra ter uma identidade digital de verdade?',
       'ctaMid.text': 'Fale com a gente pelo WhatsApp e receba um diagnóstico <strong>gratuito</strong>.',
@@ -151,7 +152,8 @@
       'portfolio.item3': 'Business Website for an Architecture Firm',
       'portfolio.item4': 'Visual Identity for a Retail SMB',
       'portfolio.item5': 'Personal Brand Website for a Content Creator',
-      'portfolio.item6': 'Local SEO for an Aesthetics Clinic',
+      'portfolio.item6': 'Children\'s Nutritionist Website — Tia Lara',
+      'portfolio.item6.link': 'Visit site ↗',
 
       'ctaMid.title': 'Ready for a real digital identity?',
       'ctaMid.text': 'Talk to us on WhatsApp and get a <strong>free</strong> diagnosis.',
